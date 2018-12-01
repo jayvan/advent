@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$#" -ne 1 ]; then
+  mcs ${1}_${2}.cs && mono ${1}_${2}.exe < inputs/${1}.in
+else
+  mcs ${1}.cs && mono ${1}.exe < inputs/${1}.in
+fi
