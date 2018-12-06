@@ -41,6 +41,8 @@
     <Compile Include="04_2.cs" />
     <Compile Include="05.cs" />
     <Compile Include="05_2.cs" />
+    <Compile Include="06.cs" />
+    <Compile Include="06_2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="01.cs" />
   </ItemGroup>
