@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$#" -ne 1 ]; then
+  mcs -debug ${1}_${2}.cs && mono --debug ${1}_${2}.exe < inputs/${1}.in
+else
+  mcs -debug ${1}.cs && mono --debug ${1}.exe < inputs/${1}.in
+fi
