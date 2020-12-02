@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{769710AE-AD03-4147-B14B-26087C714AE3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>advent2019</RootNamespace>
-    <AssemblyName>advent2019</AssemblyName>
+    <RootNamespace>advent2020</RootNamespace>
+    <AssemblyName>advent2020</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -33,6 +33,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="02.cs" />
+    <Compile Include="02_2.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
