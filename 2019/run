@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$#" -ne 1 ]; then
+  cargo run --bin ${1}_${2} inputs/${1}.txt
+else
+  cargo run --bin ${1} inputs/${1}.txt
+fi
